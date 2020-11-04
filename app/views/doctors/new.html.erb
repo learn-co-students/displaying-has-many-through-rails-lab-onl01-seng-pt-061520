@@ -1,0 +1,9 @@
+<h1> Add Doctor </h1>
+<%= form_for @doctor do |d| %>
+Name: <%= d.text_field :name %>
+Department: <%= d.text_field :department %>
+
+<%= d.submit %>
+
+<% end %>
+
